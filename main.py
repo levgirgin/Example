@@ -12,5 +12,8 @@ def load_data(file_path):
         print(f"Error loading data: {e}")
         return None
     
-    def division(a, b):
+def division(a, b):
         return a/b
+
+def addition(a, b):
+        return a + b
